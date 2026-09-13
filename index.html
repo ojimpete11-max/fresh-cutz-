@@ -115,9 +115,9 @@ header p {
         }
 
         section {
-            padding: 45px 20px;
-            max-width: 900px;
-            margin: auto;
+    width: 100%;
+    margin: 0;
+    padding: 20px 10px;
         }
 
         section h2 {
@@ -127,20 +127,23 @@ header p {
             font-size: 28px;
         }
 
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-        }
+    .services {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    }
+        
 
-        .service {
+    .service {
     background: #111;
     color: white;
-    padding: 25px 20px;
-    margin: 15px 0;
+    padding: 18px 12px;
+    margin: 0;
     border-radius: 10px;
     text-align: center;
     border: 1px solid #d4af37;
+    }
 }
 
 .service h3 {
@@ -266,8 +269,13 @@ section {
 
 .gallery img {
     max-width: 100%;
-    height: auto;
-}
+    height: auto;}
+        
+    section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    }
+
     </style>
 
 <body>
